@@ -28,7 +28,7 @@ AI Research Agent creates value by:
 - Allowing teams to focus on critical thinking rather than document review.
 
 ---
-
+'''
 ## Project Structure
 
 AI-Research-Agent/
@@ -58,10 +58,7 @@ AI-Research-Agent/
 ├── init.py
 └── vector_store.py
 
-yaml
-Copy code
-
-> This structure visually separates **folders** and **files**, making it easier to read on GitHub.
+'''
 
 ---
 
@@ -93,46 +90,28 @@ Copy code
 git clone https://github.com/mpumasupa/AI-Research-Agent.git
 cd AI-Research-Agent
 
-shell
-Copy code
-
 ### 2. Create a virtual environment
 
 python -m venv venv
-
-makefile
-Copy code
 
 Activate it:
 
 **Windows:**
 venv\Scripts\activate
 
-markdown
-Copy code
-
 **Linux / macOS:**
 source venv/bin/activate
-
-shell
-Copy code
 
 ### 3. Install dependencies
 
 pip install -r requirements.txt
 pip install PyPDF2 python-docx faiss-cpu
 
-yaml
-Copy code
-
 ### 4. (Optional) Add OpenAI API Key
 
 Create a `.env` file:
 
 OPENAI_API_KEY=your_api_key_here
-
-yaml
-Copy code
 
 ---
 
@@ -145,9 +124,6 @@ Copy code
 
 python main.py
 
-yaml
-Copy code
-
 3. Enter a research question when prompted.
 4. The console will display:
    - A research plan
@@ -158,9 +134,6 @@ Copy code
 ### Running the Test Script
 
 python test_agent_run.py
-
-yaml
-Copy code
 
 This script:
 
@@ -198,9 +171,6 @@ Bullet 1: ...
 Bullet 2: ...
 
 Bullet 3: ...
-
-yaml
-Copy code
 
 ---
 

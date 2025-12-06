@@ -28,9 +28,10 @@ AI Research Agent creates value by:
 - Allowing teams to focus on critical thinking rather than document review.
 
 ---
-'''
+
 ## Project Structure
 
+'''
 AI-Research-Agent/
 ├── main.py
 ├── test_agent_run.py

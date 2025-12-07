@@ -190,4 +190,4 @@ This project demonstrates practical applications of AI in research and informati
 
 ## License
 
-This project is licensed under the MIT License.
+This project is developed for educational purposes as part of ITAI 2277 and the AI Agents Hackathon 2025.
